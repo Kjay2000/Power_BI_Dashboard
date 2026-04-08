@@ -1,45 +1,44 @@
-# Data Jobs Dashboard w/ Power Bi
+# Power BI Dashboard Portfolio
 
-![Dashboard Page 1](/images/Project1_Page_!.png)
+This is a collection of Power BI dashboards I've developed. It tracks my journey in using the software, from foundational reports to more advanced interactive analyses, aimed at turning data into clear, actionable insights.
 
-## Introduction
+# Featured Dashboards
 
-This dashboard was created for **Job Seekers, Job Swappers and Job Transitioners** to find information about the data job market that is scattered and hard to grasp. This dashboard uses *real data from 2024* with salaries, locations and titles, to provide an easy to use interface to explore market trends and compensations.
+Explore the dashboards below. Each has its own dedicated README with more details on the build process and features.
 
-## Skills Showcased
+## Data Jobs Dashboard (V1 - Comprehensive Exploration)
 
--   **Data Transformation (ETL) with Power Query:** Cleaned, shaped, and prepared the raw data for analysis by handling blanks, changing data types, and creating new columns.
--   **Implicit Measures:** Formulated measures to derive key insights and KPIs like `Median Yearly Salary` and `Job Count`.
--   **Core Charts:** Utilized **Column, Bar, Line,** and **Area Charts** to compare job counts and track trends over time.
--   **Geospatial Analysis:** Leveraged **Map Charts** to visualize the global distribution of jobs.
--   **KPI Indicators & Tables:** Used **Cards** to display key metrics and **Tables** to provide granular, sortable data.
--   **Dashboard Design:** Designed an intuitive and visually appealing layout, exploring both common and uncommon chart types to best tell the data story.
--   **Interactive Reporting:**
-    -   **Slicers:** To dynamically filter the report by Job Title.
-    -   **Buttons & Bookmarks:** To create a seamless navigation experience.
-    -   **Drill-Through:** To navigate from a high-level summary to a contextual, detailed view.
----
+![Data Jobs Dashboard V1](/images/Project1_Page_1.png)
 
-## Dashboard Overview
+**Key Power BI Skills Utilized:**
+* Dashboard Layout and Design
+* Power Query (ETL and Data Shaping)
+* Basic Data Modelling (Table Relationships)
+* Implicit Measures and Standard Aggregations
+* Core Charts (Bar, Line, Area, Column)
+* Map Visualizations
+* KPI Cards and Detailed Data Tables
+* Interactive Slicers for Filtering
+* Buttons and Bookmarks for page navigation
+* Drill-Through Functionality
 
-*This report is split into two distinct pages to provide both a high-level summary and a detailed analysis.*
-
-### Page 1: High-Level Market View
-
-![Dashboard Page 1](/images/Project1_Page_!.png)
-
-This is your mission control for the data job market. It showcases key KPIs like total job count, median salaries, and top job titles to give you a quick understanding of what's happening in the job market at a glance.
-
-### Page 2: Job Title Drill Through
-
-![Dashboard Page 1](/images/Project1_Page_2.png)
-
-This is the deep-dive page. From the main dashboard, you can drill through to this view to get specific details for a single job title, including salary ranges, work-from-home stats, top hiring platforms, and a global map of job locations.
-
----
-
-## Conclusion
-
-This dashboard showcases how Power BI can transform raw job posting data into a powerful tool for career analysis. It allows users to slice, filter, and drill through data to make informed decisions about their career paths.
+[ **View Full Project 1 Details (README)**](/Data_jobs_v1/README.md)
 
 
+## Data Jobs Dashboard (V2 - Single-Page Focus)
+
+![Data Jobs Dashboard V2](/images/Project2.png)
+
+**Key Power BI Skills Utilized:**
+* Advanced Dashboard Design (Single-Page UX and Optimization)
+* Complex Power Query Transformations 
+* Star Schema Data Modelling Principles
+* Explicit DAX Measures (eg. CALCULATE,context modifiers)
+* Dynamic Visualizations (driven by Parameters/Slicers)
+* Field and Numeric Parameter Implementation for "What-if" Analysis
+* Enhanced Geospatial Insights
+* Advanced Card Visualizations 
+* Optimized Slicers and Advanced Cross-Filtering Techniques
+* Report Performance Considerations
+
+[ **View Full Project 2 Details (README)**](/Data_jobs_v2/README.md)
